@@ -12,4 +12,4 @@ Here are some of the projects I've worked on. Click on each for more details :")
 **GitHub Repo:** [Assignment1](Assignment1)
 
 ## Get to know me more:
-[About](about.md) | [Contact](contact.md)
+[About](index.md) | [Contact](contact.md)
