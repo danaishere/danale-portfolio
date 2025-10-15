@@ -12,4 +12,4 @@ I'd love to connect! Whether you have a project in mind, want to collaborate, or
 **Available for:** Freelance, full-time, and collaboration opportunities
 
 ## Check out my projects and more:
-[Projects](projects.md) | [About](about.md)
+[Projects](projects.md) | [About](index.md)
