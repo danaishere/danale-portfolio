@@ -5,20 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Doan Le / Research & Design</title>
-  <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
-
   <!-- HEADER -->
-  <header class="site-header">
-    <a href="#" class="pill pill--static">Doan Le / Research & Design</a>
-    <nav>
-      <a href="#work" class="pill">PROJECTS</a>
-      <a href="#about" class="pill">ABOUT</a>
-      <a href="#contact" class="pill">CONTACT</a>
-    </nav>
-  </header>
+<body data-page="home">
+  <div id="site-header"></div>
 
   <main class="container">
 
@@ -29,7 +20,7 @@
       <div class="col">
         <article class="card hero">
           <div class="hero__banner"></div>
-          <img class="hero__avatar" src="images/avatar.jpg" alt="Profile photo" />
+          <img class="hero__avatar" src="images/Untitled design (1).png" alt="Profile photo" />
           <h1>Turning Insight Into Better Experiences</h1>
         </article>
 
@@ -116,66 +107,11 @@
     </section>
 
     <!-- SELECTED WORK -->
-    <section id="work">
-      <span class="pill pill--static">SELECTED WORK</span>
+<section id="work">
+  <span class="pill pill--static">SELECTED WORK</span>
+  <div id="projectList"></div>
+</section>
 
-      <div class="project">
-        <div class="project__info card">
-          <header class="project__head">
-            <h3>Artisan Alley</h3>
-            <small>A research-led mobile learning concept for reducing beginner drop-off in crochet</small>
-          </header>
-          <p>Many people start crochet for relaxation, but beginners often drop off when learning feels confusing, isolating, or discouraging. This project explores how a mobile learning experience could reduce that friction and help new crocheters stay engaged.</p>
-          <dl class="meta">
-            <div>
-              <dt>Year</dt>
-              <dd>2025</dd>
-            </div>
-            <div>
-              <dt>URL</dt>
-              <dd>N/A</dd>
-            </div>
-          </dl>
-          <a href="case-study.html?project=project-one" class="btn">View Case Study <span>↗</span></a>
-        </div>
-
-        <a class="project__preview" href="case-study.html?project=project-one" style="background:#dddcff">
-          <img src="images/project1-1.png" alt="Project One preview" />
-        </a>
-        <!-- <div class="project__preview" style="background:#dddcff">
-          <img src="images/project1.png" alt="Project One preview" />
-        </div> -->
-      </div>
-
-      <div class="project">
-        <div class="project__info card">
-          <header class="project__head">
-            <h3>Project Two</h3>
-            <small>Cybersecurity</small>
-          </header>
-          <p>Short summary of the project, the context and your role.</p>
-          <dl class="meta">
-            <div>
-              <dt>Year</dt>
-              <dd>2026</dd>
-            </div>
-            <div>
-              <dt>URL</dt>
-              <dd>www.url.com</dd>
-            </div>
-          </dl>
-          <a href="case-study.html?project=project-two" class="btn">View Case Study <span>↗</span></a>
-        </div>
-
-        <a class="project__preview" href="case-study.html?project=project-one" style="background:#dddcff">
-          <img src="images/project1-1.png" alt="Project Two preview" />
-        </a>
-
-        <!-- <div class="project__preview" style="background:#f54a22">
-          <img src="images/project2.png" alt="Project Two preview" />
-        </div> -->
-      </div>
-    </section>
   </main>
 
   <!-- WHAT I DO (DARK) -->
@@ -259,30 +195,13 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="container">
-    <h2 class="card banner-title">Let's Create Something Exceptional Together</h2>
-    <div class="footer-grid">
-      <div class="card">
-        <h6 class="card__label">Quick Links</h6>
-        <a class="btn" href="#work">Portfolio <span>↗</span></a>
-        <a class="btn" href="#about">About <span>↗</span></a>
-        <a class="btn" href="#contact">Contact <span>↗</span></a>
-      </div>
-      <div class="card">
-        <h6 class="card__label">Contact</h6>
-        <a class="btn" href="#">LinkedIn <span>↗</span></a>
-        <a class="btn" href="#">Dribbble <span>↗</span></a>
-        <a class="btn" href="mailto:you@example.com">Email <span>↗</span></a>
-      </div>
-      <div class="card">
-        <h6 class="card__label">Legal</h6>
-        <small>Terms & Conditions<br />Privacy Policy<br />Accessibility Statement</small>
-        <small>© 2026 Your Name</small>
-      </div>
-    </div>
-  </footer>
 
-  <script src="script.js"></script>
+  <div id="site-footer"></div>
+
+<script src="js/projects.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/script.js"></script>
+
 </body>
 
 </html>

@@ -25,18 +25,6 @@ img { max-width: 100%; }
 
 .container { max-width: 1200px; margin: 0 auto; padding: 0 24px 24px; }
 
-/* ---------- Header ---------- */
-.site-header {
-  max-width: 1200px;
-  margin: 0 auto 24px;
-  padding: 16px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid var(--border);
-}
-.site-header nav { display: flex; gap: 8px; }
-
 /* ---------- Pills & buttons ---------- */
 .pill {
   display: inline-block;
@@ -118,7 +106,7 @@ img { max-width: 100%; }
     #dfe3ff;
 }
 .hero__avatar {
-  width: 56px; height: 56px; border-radius: 50%;
+  width: 100px; height: 100px; border-radius: 50%;
   border: 3px solid #fff; object-fit: cover;
   margin: -28px 0 0 16px; position: relative;
 }
@@ -218,8 +206,19 @@ img { max-width: 100%; }
 .form input:focus, .form select:focus, .form textarea:focus { border-bottom-color: #ff6f4d; }
 
 /* =====================================================
-   FOOTER
+   HEADER & FOOTER
    ===================================================== */
+.site-header {
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+.site-header nav { display: flex; gap: 8px; }
+
 .footer-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--gap); }
 .footer-grid small { display: block; font-size: 12px; margin-top: 12px; }
 
@@ -283,17 +282,52 @@ img { max-width: 100%; }
   .steps,
   .contact-grid,
   .footer-grid,
-  .case__row { grid-template-columns: 1fr; }
+  .case__row {
+    grid-template-columns: 1fr;
+  }
 
-  .photo-card, .photo-card--tall { min-height: 240px; flex: none; }
+  .photo-card,
+  .photo-card--tall {
+    min-height: 240px;
+    flex: none;
+  }
 
-  .project__preview { min-height: 260px; padding: 24px; }
-  .case__preview { min-height: 260px; padding: 24px; }
+  .project__preview {
+    min-height: 260px;
+    padding: 24px;
+  }
 
-  .form__row { grid-template-columns: 1fr; }
-  .site-header { flex-direction: column; gap: 12px; }
-  .banner-title { font-size: 1.6rem; }
+  .case__preview {
+    min-height: 260px;
+    padding: 24px;
+  }
 
-  .case__nav { flex-direction: column; }
-  .case__nav .btn { width: 100%; }
+  .form__row {
+    grid-template-columns: 1fr;
+  }
+
+  .banner-title {
+    font-size: 1.6rem;
+  }
+
+  .case__nav {
+    flex-direction: column;
+  }
+
+  .case__nav .btn {
+    width: 100%;
+  }
+
+
+  .site-header__inner,
+  .site-footer__inner {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .site-nav,
+  .site-footer__links {
+    justify-self: start;
+    flex-wrap: wrap;
+  }
 }

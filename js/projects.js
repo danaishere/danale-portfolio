@@ -1,19 +1,27 @@
 const projects = {
   "project-one": {
     name: "Artisan Alley",
+
+    // ---- Homepage card ----
+    tagline: "A mobile learning concept helping crochet beginners build skills and stay motivated.",
+    summary:
+      "Beginners often learn crochet on their own, with unclear instructions and little support. What could make learning crochet easier to follow, more motivating, and less likely to end in frustration?",
+    year: "2025",
+    url: "N/A",
+
+    // ---- Case study page ----
     subtitle: "A research-led mobile learning concept for reducing beginner drop-off in crochet",
     accent: "#a6ff6e",
-    client: "N/A",
     type: "Capstone",
     role: "UX Researcher, UX Designer",
     duration: "3 months (2025)",
     challenge:
       "Describe the problem, the audience and the constraints. Walk visitors through your methodology and problem-solving approach.",
     approach: [
-      "Conducted 47 user interviews across three demographic segments",
-      "Mapped user journeys and pain points",
-      "Prototyped and tested key flows",
-      "Iterated on feedback with the team"
+      "Reviewed crochet communities and gathered survey feedback to understand beginners’ struggles and desired support.",
+      "Ran a closed card sort with 5 participants to evaluate navigation labels.",
+      "Mapped the information architecture and new-user journey.",
+      "Designed wireframes and a mobile prototype, refining the experience around learner needs."
     ],
     solution:
       "Describe the key deliverables, decision points and major phases of the project, including dates and resources.",
@@ -29,11 +37,16 @@ const projects = {
     ]
   },
 
-
-
-
   "project-two": {
     name: "SIKURA",
+
+    // ---- Homepage card ----
+    tagline: "Cybersecurity for your company",
+    summary: "Short summary of the project, the context and your role.",
+    year: "2026",
+    url: "www.url.com",
+
+    // ---- Case study page ----
     subtitle: "Cybersecurity for your company",
     accent: "#f54a22",
     client: "SIKURA",
